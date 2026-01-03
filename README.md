@@ -115,12 +115,12 @@ Guide to get a detailed explanation of an adonis-mcp feature with code examples.
 
 Install globally via npm:
 ```bash
-npm install -g adonis-mcp-server
+npm install -g adonis-mcp-docs
 ```
 
 Or use with npx (no installation required):
 ```bash
-npx adonis-mcp-server
+npx adonis-mcp-docs
 ```
 
 ### Testing locally before publishing
@@ -139,12 +139,12 @@ node bin/mcp.js
 ### Start the MCP server
 
 ```bash
-adonis-mcp-server
+adonis-mcp-docs
 ```
 
 Or with npx:
 ```bash
-npx adonis-mcp-server
+npx adonis-mcp-docs
 ```
 
 ### Configuration for MCP Clients
@@ -156,7 +156,7 @@ Add to your Claude Desktop or Cursor MCP configuration:
   "mcpServers": {
     "adonis-mcp-docs": {
       "command": "npx",
-      "args": ["adonis-mcp-server"]
+      "args": ["adonis-mcp-docs"]
     }
   }
 }
