@@ -33,7 +33,6 @@ export default class MarkdownResource extends Resource<Args> {
   async complete({ args, response }: CompleteContext<Args>) {
     const resourceCompletionService = new ResourceCompletionService()
     const completions = resourceCompletionService.getCompletions(args?.name)
-    console.log(completions)
     return response.complete({ values: completions })
   }
 }
